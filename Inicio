@@ -26,3 +26,12 @@ Script Bash: Es un archivo que contiene varios comandos para ejecutarlos juntos
 
 
 Comandos usados para la terminal
+-   pwd	Muestra la ubicación actual.
+-   ls	Muestra archivos y carpetas.
+-   cd	Entra o cambia de carpeta.
+-   mkdir	Crea una carpeta.
+-   touch	Crea un archivo vacío.
+-   cp	Copia archivos o carpetas.
+-   mv	Mueve o renombra archivos o carpetas.
+-   rm	Elimina archivos.
+-   whoami	Muestra el usuario actual.
