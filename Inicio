@@ -4,3 +4,25 @@ identifica, prevenir y responder
 / Usuarios individuales : Proteccion de dispositivos, cuentas bancarias y datos personales
 / Empresas: Seguridad en redes, sistemas externos
 / Infraestructuras críticas: Energía, transporte, salud, finanzas, telecomunicaciones, el trabajo aquí es por si hay un ataque ya que en estos lugares un ciberataque puede ser catastrofico
+
+Linux es un sistema operativo, no es un lenguaje de programacion, esta bien puede servir para:
+1.- Administrar archivos y carpetas: crear, copiar, mover, modificar y eliminar.
+2.- Ejecutar programas: permite utilizar aplicaciones como navegadores, editores de código y herramientas de seguridad.
+3.- Administrar recursos: controlar la memoria RAM, el procesador y el almacenamiento.
+4.- Administrar usuarios: controlar quién puede acceder a determinados archivos y recursos.
+5.- Gestionar redes: administrar las conexiones entre computadoras y otros dispositivos.
+6.- Gestionar procesos: controlar los programas que están ejecutándose
+Puede ejecutar programas, a si que pon atencion a eso
+
+Despues tenemos estas bases
+Linux: Es el sistema operativo
+Terminal: Es la ventana en el que escribiremos los comandos
+Bash: Es la orden que recibirá la terminal, es su traductor basicamente
+Script Bash: Es un archivo que contiene varios comandos para ejecutarlos juntos
+
+
+
+
+
+
+Comandos usados para la terminal
