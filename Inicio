@@ -43,6 +43,9 @@ Comandos usados para la terminal
 
 CONSEJOS PARA LOS COMANDOS
 
+Para los COMANDOS que envien un mensaje a la terminal, podemos hacer que en lugar de enviarlo a la terminal, lo envien a otro archivo, existen dos formas diferentes:
+>      Este REEMPLAZARA todo lo que contenga el archivo        echo "Reemplazar" > archivo.txt 
+>>     Este AÑADIRA todo lo que contenga el archivo            echo "Añadir"     > archivo.txt
 
 
 Linux segunda edicion
