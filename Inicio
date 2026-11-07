@@ -29,9 +29,13 @@ Comandos usados para la terminal
 -   pwd	Muestra la ubicación actual.
 -   ls	Muestra archivos y carpetas.
 -   cd	Entra o cambia de carpeta.
+-   cd.. volver.
 -   mkdir	Crea una carpeta.
 -   touch	Crea un archivo vacío.
 -   cp	Copia archivos o carpetas.
 -   mv	Mueve o renombra archivos o carpetas.
 -   rm	Elimina archivos.
+-   rmdir Elimina carpeta VACIA.
 -   whoami	Muestra el usuario actual.
+-   cat mostrar el contienido de un ARCHIVO
+-   echo Muestra un mensaje de texto, pero tambien se puede guardar el texto en un archivo
