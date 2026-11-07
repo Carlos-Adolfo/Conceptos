@@ -39,7 +39,7 @@ Comandos usados para la terminal
 -   whoami	Muestra el usuario actual.
 -   cat     mostrar el contienido de un ARCHIVO
 -   echo    Muestra un mensaje de texto, pero tambien se puede guardar el texto en un archivo
--   less	  Leer archivos largos página por página.
+-   less	  Leer archivos largos página por página.   // ESPACIO para mostrar siguiente pagina     b para volver   q para salir
 -   head  	Mostrar las primeras líneas.
 -   tail  	Mostrar las últimas líneas.
 -   wc	    Contar líneas, palabras y caracteres.
@@ -54,6 +54,7 @@ Para los COMANDOS que envien un mensaje a la terminal, podemos hacer que en luga
 >      Este REEMPLAZARA todo lo que contenga el archivo        echo "Reemplazar" > archivo.txt 
 >>     Este AÑADIRA todo lo que contenga el archivo            echo "Añadir"     > archivo.txt
 
+PARA tail y head USA LA FORMULA comando -n x archivo      donde x es un numero   y archivo es un archivo,  tail -n 20 archivo
 
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
