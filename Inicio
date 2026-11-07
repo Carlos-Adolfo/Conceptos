@@ -29,7 +29,7 @@ Comandos usados para la terminal
 -   pwd	Muestra la ubicación actual.
 -   ls	Muestra archivos y carpetas.
 -   cd	Entra o cambia de carpeta.
--   cd.. volver.
+-   cd .. volver.   //se puede usar cd ../../../EntrarCarpeta     así para retroceder x veces y entrar a la carpeta
 -   mkdir	Crea una carpeta.
 -   touch	Crea un archivo vacío.
 -   cp	Copia archivos o carpetas.
@@ -39,3 +39,25 @@ Comandos usados para la terminal
 -   whoami	Muestra el usuario actual.
 -   cat mostrar el contienido de un ARCHIVO
 -   echo Muestra un mensaje de texto, pero tambien se puede guardar el texto en un archivo
+
+
+CONSEJOS PARA LOS COMANDOS
+
+
+
+
+
+
+
+EJERCICIO EN CURSO
+/home/usuario/
+│
+├── Documentos/
+│   ├── tarea.txt
+│   └── notas.txt
+│
+├── Descargas/
+│
+└── Practica/
+
+
