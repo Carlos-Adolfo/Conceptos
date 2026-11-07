@@ -26,19 +26,26 @@ Script Bash: Es un archivo que contiene varios comandos para ejecutarlos juntos
 
 
 Comandos usados para la terminal
--   pwd	Muestra la ubicación actual.
--   ls	Muestra archivos y carpetas.
--   cd	Entra o cambia de carpeta.
--   cd .. volver.   //se puede usar cd ../../../EntrarCarpeta     así para retroceder x veces y entrar a la carpeta
--   mkdir	Crea una carpeta.
--   touch	Crea un archivo vacío.
--   cp	Copia archivos o carpetas.
--   mv	Mueve o renombra archivos o carpetas.
--   rm	Elimina archivos.
--   rmdir Elimina carpeta VACIA.
+-   pwd	    Muestra la ubicación actual.
+-   ls	    Muestra archivos y carpetas.
+-   cd	    Entra o cambia de carpeta.
+-   cd ..   volver.   //se puede usar cd ../../../EntrarCarpeta     así para retroceder x veces y entrar a la carpeta
+-   mkdir	  Crea una carpeta.
+-   touch	  Crea un archivo vacío.
+-   cp	    Copia archivos o carpetas.
+-   mv	    Mueve o renombra archivos o carpetas.
+-   rm	    Elimina archivos.
+-   rmdir   Elimina carpeta VACIA.
 -   whoami	Muestra el usuario actual.
--   cat mostrar el contienido de un ARCHIVO
--   echo Muestra un mensaje de texto, pero tambien se puede guardar el texto en un archivo
+-   cat     mostrar el contienido de un ARCHIVO
+-   echo    Muestra un mensaje de texto, pero tambien se puede guardar el texto en un archivo
+-   less	  Leer archivos largos página por página.
+-   head  	Mostrar las primeras líneas.
+-   tail  	Mostrar las últimas líneas.
+-   wc	    Contar líneas, palabras y caracteres.
+-   file	  Identificar qué tipo de archivo tenemos.
+-   grep	  Buscar palabras o patrones dentro de archivos.
+-   find	  Buscar archivos y carpetas por ubicación o nombre.
 
 
 CONSEJOS PARA LOS COMANDOS
