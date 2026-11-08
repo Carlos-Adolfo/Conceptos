@@ -56,6 +56,13 @@ Para los COMANDOS que envien un mensaje a la terminal, podemos hacer que en luga
 
 PARA tail y head USA LA FORMULA comando -n x archivo      donde x es un numero   y archivo es un archivo,  tail -n 20 archivo
 
+COMANDOS PARA AVERIGUAR DATOS
+ls    muestra el nombre de los archivos 
+cat   muestra el contenido de los archivos de texto
+file  muestra el tipo de archivo
+
+
+
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
 
