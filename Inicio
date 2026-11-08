@@ -67,6 +67,7 @@ find /home/user/ -name "foto.png" EXISTEN VARIOS TIPOS DE CARACTERES QUE AYUDARA
 ?   sirve para encontrar archivos con 1 caracter posterior, depende de cuantos ?? hayas puesto              "foto?.png"    "?.png"
 []  sirve para encontrar archivos con exactamente los caracteres que uno quiera                            "foto[12].png" "[12].png"
 tambien tiene si se quiere que haya el ambos, se puede hacer doble, o sea "foto[12][12].png" ahora podría haber     foto11.png y foto22.png
+se puede usar tambien -iname para que no distinga entre mayusculas y minusculas, o sea que entren PnG y ERoR
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
