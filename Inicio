@@ -42,7 +42,7 @@ Comandos usados para la terminal
 -   less	  Leer archivos largos página por página.   // ESPACIO para mostrar siguiente pagina     b para volver   q para salir
 -   head  	Mostrar las primeras líneas.
 -   tail  	Mostrar las últimas líneas.
--   wc	    Contar líneas, palabras y caracteres.
+-   wc	    Contar líneas, palabras y caracteres.   // wc -l archivo.txt  muestra las lineas   wc -w archivo.txt   muestra palabras   wc -c   tamaño del archivo en bytes
 -   file	  Identificar qué tipo de archivo tenemos.
 -   grep	  Buscar palabras o patrones dentro de archivos.
 -   find	  Buscar archivos y carpetas por ubicación o nombre.
