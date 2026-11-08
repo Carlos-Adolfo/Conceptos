@@ -47,7 +47,7 @@ Comandos usados para la terminal
 -   grep	  Buscar palabras o patrones dentro de archivos.     PARA QUE DISTINGA ENTRE MAYUSCULA, MINUSCURA Y DEMÁS, USA grep -i "palabra" archivo // usar grep -ic "palabra" archivo  para contar las palabras deseadas
 -   find	  Buscar archivos y carpetas por ubicación o nombre.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
 Para los COMANDOS que envien un mensaje a la terminal, podemos hacer que en lugar de enviarlo a la terminal, lo envien a otro archivo, existen dos formas diferentes:
@@ -61,8 +61,13 @@ ls    muestra el nombre de los archivos
 cat   muestra el contenido de los archivos de texto
 file  muestra el tipo de archivo
 
-
-
+COMANDOS CON FIND
+find /home/user/ -name "foto.png" EXISTEN VARIOS TIPOS DE CARACTERES QUE AYUDARAN PARA ENCONTRAR MEJOR LOS ARCHIVOS
+*   sirve para encontrar archivos posterior o anterio a algo, como                                          "foto*.png"    "*.png"
+?   sirve para encontrar archivos con 1 caracter posterior, depende de cuantos ?? hayas puesto              "foto?.png"    "?.png"
+[]  sirve para encontrar archivos con exactamente los caracteres que uno quiera                            "foto[12].png" "[12].png"
+tambien tiene si se quiere que haya el ambos, se puede hacer doble, o sea "foto[12][12].png" ahora podría haber     foto11.png y foto22.png
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
 
