@@ -44,7 +44,7 @@ Comandos usados para la terminal
 -   tail  	Mostrar las últimas líneas.
 -   wc	    Contar líneas, palabras y caracteres.   // wc -l archivo.txt  muestra las lineas   wc -w archivo.txt   muestra palabras   wc -c   tamaño del archivo en bytes
 -   file	  Identificar qué tipo de archivo tenemos.
--   grep	  Buscar palabras o patrones dentro de archivos.
+-   grep	  Buscar palabras o patrones dentro de archivos.     PARA QUE DISTINGA ENTRE MAYUSCULA, MINUSCURA Y DEMÁS, USA grep -i "palabra" archivo
 -   find	  Buscar archivos y carpetas por ubicación o nombre.
 
 
