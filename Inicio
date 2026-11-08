@@ -68,6 +68,10 @@ find /home/user/ -name "foto.png" EXISTEN VARIOS TIPOS DE CARACTERES QUE AYUDARA
 []  sirve para encontrar archivos con exactamente los caracteres que uno quiera                            "foto[12].png" "[12].png"
 tambien tiene si se quiere que haya el ambos, se puede hacer doble, o sea "foto[12][12].png" ahora podría haber     foto11.png y foto22.png
 se puede usar tambien -iname para que no distinga entre mayusculas y minusculas, o sea que entren PnG y ERoR
+OTRO comando con find puede ser -type, se usa find /home/user/ -type f para encontrar todos los archivos, con d sería las carpetas
+luego estaría  find /home/user/ -type f -size +10M      -size significa el tamaño, + para que sea mayor que 10M, - para que sea menor, 10M para que sea justo eso
+-size usa esta tabla para los tamaños
+c = bytes     k = kibibytes   M = mebibytes    G = gibibytes
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
