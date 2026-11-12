@@ -48,6 +48,8 @@ Comandos usados para la terminal
 -   find	  Buscar archivos y carpetas por ubicación o nombre.
 -   sort    Muestra el contenido de un archivo de forma ordenada  //comandos extra   -n = acomoda los numerales  -r = acomoda en reversa  -u = acomoda de forma única
 -   uniq    Elimina las copias que consecutivas   // comandos extra  -c (cuenta),  -d (muestra las lineas repetidas) , -u (muestra las lineas NO repetidas)   , |  tubería
+-   cut     Sirve para extraer datos de un archivo, sus comandos son
+            -d 'texto' (Es el delimitador, aquí se crean los campos) , -f (Aquí se dice el numero del campo con el que se trabajará) , -c (Aquí se dice la posicion de los caracteres con los que se trabajará)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
