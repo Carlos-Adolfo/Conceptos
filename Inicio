@@ -47,6 +47,8 @@ Comandos usados para la terminal
 -   grep	  Buscar palabras o patrones dentro de archivos.     PARA QUE DISTINGA ENTRE MAYUSCULA, MINUSCURA Y DEMÁS, USA grep -i "palabra" archivo // usar grep -ic "palabra" archivo  para contar las palabras deseadas
 -   find	  Buscar archivos y carpetas por ubicación o nombre.
 -   sort    Muestra el contenido de un archivo de forma ordenada  //comandos extra   -n = acomoda los numerales  -r = acomoda en reversa  -u = acomoda de forma única
+-   uniq    Elimina las copias que consecutivas   // comandos extra  -c (cuenta),  -d (muestra las lineas repetidas) , -u (muestra las lineas NO repetidas)   , |  tubería
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
