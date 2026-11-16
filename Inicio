@@ -51,6 +51,7 @@ Comandos usados para la terminal
 -   cut     Sirve para extraer datos de un archivo, sus comandos son
             -d 'texto' (Es el delimitador, aquí se crean los campos) , -f (Aquí se dice el numero del campo con el que se trabajará) , -c (Aquí se dice la posicion de los caracteres con los que se trabajará)
 -   tr      Modifica el contenido que recibe, esto puede ser reemplazar, eliminar  -d 'caracter' (para eliminar) , 'A-Z' 'a-z (modificar) , -s 'caracter' (eliminar las copias)
+-   tee     Muestra la salida de un compando y guarda el resultado en un archivo (lo reemplaza si ya existe), usa -a para AÑADIR si estas usando un archivo existente
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
