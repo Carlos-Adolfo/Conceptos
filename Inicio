@@ -52,6 +52,7 @@ Comandos usados para la terminal
             -d 'texto' (Es el delimitador, aquí se crean los campos) , -f (Aquí se dice el numero del campo con el que se trabajará) , -c (Aquí se dice la posicion de los caracteres con los que se trabajará)
 -   tr      Modifica el contenido que recibe, esto puede ser reemplazar, eliminar  -d 'caracter' (para eliminar) , 'A-Z' 'a-z (modificar) , -s 'caracter' (eliminar las copias)
 -   tee     Muestra la salida de un compando y guarda el resultado en un archivo (lo reemplaza si ya existe), usa -a para AÑADIR si estas usando un archivo existente
+-   diff    Muestra las diferencias de un archivo con otro, sus comandos extra estan abajo
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
@@ -77,6 +78,11 @@ OTRO comando con find puede ser -type, se usa find /home/user/ -type f para enco
 luego estaría  find /home/user/ -type f -size +10M      -size significa el tamaño, + para que sea mayor que 10M, - para que sea menor, 10M para que sea justo eso
 -size usa esta tabla para los tamaños
 c = bytes     k = kibibytes   M = mebibytes    G = gibibytes
+
+COMANDOS DE DIFF
+-a (añadir, en la fila x se añadió x cosa) ,-d (indica que se borró, en la fila x se borró x cosa) ,-q (busca diferencias entre archivo, si no encuentra, no hace nada) -s (lo mismo que el anterior pero con igualdades) , -u (la forma acomodada de diff) , -c (lo mismo pero de otra forma)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Linux segunda edicion
 https://www.kea.nu/files/textbooks/humblesec/thelinuxcommandline.pdf
