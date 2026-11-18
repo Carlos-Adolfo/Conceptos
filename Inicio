@@ -61,6 +61,11 @@ COMANDOS DE ADMINISTRACION
 -   chown   Permite cambiar de propietario, este puede ser un usuario o un grupo, archivo o carpeta siempre que se tenga la autorizacion necesaria (chown usuario:grupo archivo.txt   , chown :grupo archivo.txt)
 -   chgrp   Lo mismo que arriba pero solamente con grupos
 -   sudo    Permite ejecutar comandos que solo al tener ciertos privilegios se podría
+-   chmod   Permite cambiar los permisos de: usuarios, grupos, otros, todos, los permisos que puede dar son:
+r: lectura                valor numeral  4
+w: escritura              valor numeral  2
+x: ejecutar               valor numeral  1
+-: ningun permiso         valor numeral  0
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
