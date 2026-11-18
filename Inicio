@@ -53,7 +53,14 @@ Comandos usados para la terminal
 -   tr      Modifica el contenido que recibe, esto puede ser reemplazar, eliminar  -d 'caracter' (para eliminar) , 'A-Z' 'a-z (modificar) , -s 'caracter' (eliminar las copias)
 -   tee     Muestra la salida de un compando y guarda el resultado en un archivo (lo reemplaza si ya existe), usa -a para AÑADIR si estas usando un archivo existente
 -   diff    Muestra las diferencias de un archivo con otro, sus comandos extra estan abajo
--   
+-----------------------------------------------------------------------------------------
+COMANDOS DE ADMINISTRACION
+-   whoami  Muestra el usuario
+-   id      Muestra los identificadores del usuario y grupos que pertenece
+-   group   Muestra los grupos que pertenece el usuario
+-   chown   Permite cambiar de propietario, este puede ser un usuario o un grupo, archivo o carpeta siempre que se tenga la autorizacion necesaria (chown usuario:grupo archivo.txt   , chown :grupo archivo.txt)
+-   chgrp   Lo mismo que arriba pero solamente con grupos
+-   sudo    Permite ejecutar comandos que solo al tener ciertos privilegios se podría
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
