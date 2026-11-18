@@ -66,6 +66,8 @@ r: lectura                valor numeral  4
 w: escritura              valor numeral  2
 x: ejecutar               valor numeral  1
 -: ningun permiso         valor numeral  0
+
+-   umask   Quita los permisos de usuarios, grupos y otros, a partir que se ejecute este comando sobre las carpetas y archivos creados a partir de ahora  (umask 'permisos quitados' archivo.txt)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
