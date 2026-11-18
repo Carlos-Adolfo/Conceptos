@@ -68,6 +68,7 @@ x: ejecutar               valor numeral  1
 -: ningun permiso         valor numeral  0
 
 -   umask   Quita los permisos de usuarios, grupos y otros, a partir que se ejecute este comando sobre las carpetas y archivos creados a partir de ahora  (umask 'permisos quitados' archivo.txt)
+-   su      Cambia de usuario temporalmente   su usuario (cambia de usuario) su root (cambia al usuario principal) para salir hay que escribir exit o presionar ctrl + d
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
