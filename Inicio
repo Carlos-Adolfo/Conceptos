@@ -69,7 +69,7 @@ x: ejecutar               valor numeral  1
 
 -   umask   Quita los permisos de usuarios, grupos y otros, a partir que se ejecute este comando sobre las carpetas y archivos creados a partir de ahora  (umask 'permisos quitados' archivo.txt)
 -   su      Cambia de usuario temporalmente   su usuario (cambia de usuario) su root (cambia al usuario principal) para salir hay que escribir exit o presionar ctrl + d
--   ps      Muestra el proceso de la terminal
+-   ps      Muestra el proceso de la terminal, tiene su comando especial que es ps -e, este muestra otros procesos que se estan ejecutando
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONSEJOS PARA LOS COMANDOS
 
@@ -99,10 +99,12 @@ c = bytes     k = kibibytes   M = mebibytes    G = gibibytes
 COMANDOS DE DIFF
 -a (añadir, en la fila x se añadió x cosa) ,-d (indica que se borró, en la fila x se borró x cosa) ,-q (busca diferencias entre archivo, si no encuentra, no hace nada) -s (lo mismo que el anterior pero con igualdades) , -u (la forma acomodada de diff) , -c (lo mismo pero de otra forma)
 COMANDOS DE PS
-PID    TTY      TIME       CMD
-1200   pts/0    00:00:03   bash
-1250   pts/0    00:00:01   ps
-1300   pts/1    00:02:15   firefox
+PID    TTY      TIME       CMD        | PID    TTY      TIME       CMD
+1200   pts/0    00:00:03   bash       | 1      ?        00:00:05   systemd
+1250   pts/0    00:00:01   ps         | 650    ?        00:00:02   NetworkManager
+1300   pts/1    00:02:15   firefox    | 1200   pts/0    00:00:03   bash
+                                      | 1250   pts/0    00:00:01   ps
+                                      | 1300   ?        00:02:15   firefox
 //
 PID:  Identificador del proceso
 TTY:  Terminal asociada al proceso
