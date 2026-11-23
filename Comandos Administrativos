@@ -6,9 +6,9 @@ car    1250  1200  0  10:35  pts/0  00:00:01   ps -f
 UID: usuario propietario o el que ejecutó el proceso
 PID: identificador del proceso
 PPID: PID del proceso padre que inicio el proceso actual
-C: 
-STIME: 
-TTY: 
-TIME: 
-CMD: 
+C: Porcentaje promedio del procesador que se usó desde su inicio hasta que se ejecuta ps -f
+STIME: Hora en el que comenzó el proceso
+TTY: Terminal asociada al proceso
+TIME: Tiempo de CPU que fue utilizado
+CMD: Comando o programa asociado al proceso
 --------------------------------------------------------
