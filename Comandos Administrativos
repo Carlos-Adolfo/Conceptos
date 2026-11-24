@@ -40,6 +40,11 @@ comando: Comando asociado al trabajo
 --------------------------------------------------------------------
 fg: Trae un trabajo al primer plano                   // fg %numero_de_trabajo     o sea job
 bg: Reanuda un trabajo suspendido al segundo plano    // bg %numero_de_trabajo     o sea job
+consejos:
+primer plano: El primer plano es el espacio activo donde el proceso tiene el control del teclado y la pantalla, en este caso, la terminal es donde podemos tener contacto con el primer plano
+solo puede realizar una orden, o sea en el momento en el que se decida ejecutar los procesos, no se puede escribir más hasta que termine y lo hace uno por uno hasta terminar
+aunque se puede pausar con ctr + z  y se puede cancelar con ctr + c
+segundo plano: Se puede llegar aquí de muchas formas pero su funcion es realizar procesos en simultaneo, o sea puede ejecutar procesos sin necesidad de esperar a que termine otro
 -------------------------------------------------------------------
 
 -------------------------------------------------------------------
