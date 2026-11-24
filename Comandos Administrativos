@@ -47,6 +47,24 @@ aunque se puede pausar con ctr + z  y se puede cancelar con ctr + c
 segundo plano: Se puede llegar aquí de muchas formas pero su funcion es realizar procesos en simultaneo, o sea puede ejecutar procesos sin necesidad de esperar a que termine otro
 poner & al final de un proceso hace que sea enviado directamente al segundo plano
 -------------------------------------------------------------------
-nohup: Permite que el proceso se siga ejecutando a pesar de que se cierra la sesion de la terminal, o sea salirse de la terminal
-pgrep: Permite buscar el PID de los procesos usando sus nombres, ejemplo  pgrep firefox -> 1350
+nohup:  Permite que el proceso se siga ejecutando a pesar de que se cierra la sesion de la terminal, o sea salirse de la terminal
+pgrep:  Permite buscar el PID de los procesos usando sus nombres, ejemplo  pgrep firefox -> 1350
+pkill:  Busca procesos por el nombre y les manda una señal, ejemplo      pkill firefox 
+pidof:  Muestra los PID asociados a un programa ejecutable, o sea buscará entre esos tambien estarán los procesos, ejemplo   pidof firefox -> 1300 1350 1400
+nice:   Ejecuta un programa asignandole un numero de prioridad que varía entre -20 a 19, ejemplo   nice -n NUMERO_NICE comando
+renice: Modifica el valor nice de un proceso ya ejecutandose, ejemplo    renice nuevo_numero_nice -p valor_PID
 -------------------------------------------------------------------
+free: Muestra información sobre la memoria RAM y la memoria Swap del sistema.
+              total   used   free   shared  buff/cache  available
+Mem:           8Gi    3Gi    1Gi     200Mi       4Gi       4.5Gi
+Swap:          2Gi    100Mi  1.9Gi
+Mem:        Memoria RAM física
+Swap:       Espacio que Linux utiliza como apoyo a la RAM. Puede estar ubicado en una partición o en un archivo del disco.
+total:      Cantidad de RAM total
+used:       Cantidad total de Ram usada
+free:       Ram libre que no se esta usando
+shared:     Memoria Ram que esta siendo usando en varios procesos
+buff/cache: Memoria usada para buff y caches
+avaible:    Estimación de la RAM que puede utilizarse para nuevos programas sin recurrir excesivamente a Swap.
+-------------------------------------------------------------------
+
