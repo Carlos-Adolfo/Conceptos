@@ -11,4 +11,35 @@ STIME: Hora en el que comenzó el proceso
 TTY: Terminal asociada al proceso
 TIME: Tiempo de CPU que fue utilizado
 CMD: Comando o programa asociado al proceso
+----------------------------------------------------------------------
+ps -ef (solo combina dos comandos)
+-------------------------------------
+ps aux
+USER  PID   %CPU  %MEM  VSZ     RSS     TTY    STAT  START  TIME  COMMAND
+car   1200  2.5   1.2   50000   12000   ?      S     09:00  0:03  bash
+car   1300  15.0  8.5   800000  200000  ?      R     09:05  0:15  firefox
+USER: Usuario propietario del proceso
+%CPU: porcentaje de CPU utilizado por el proceso.
+%MEM: porcentaje de RAM fisica utilizado
+VSZ: virtual memory size, tamaño de la memoria virtual del proceso.
+RSS: resident set size, cantidad de memoria RAM física residente utilizada por el proceso
+STAT: estado actual del proceso
+START: Hora en donde se inicio
 --------------------------------------------------------
+top: muestra informacion actualizada constantemente sobre los procesos y recuersos del sistema
+--------------------------------------------------------
+kill: envia señales a los procesos utilizando sus PID, estas pueden ser de terminar, forzar la terminacion y demás
+-------------------------------------------------------------
+jobs: Muestra los trabajos que se realizan en la terminal que esta, estos siendo unicamente los de segundo plano o suspendidos
+[1]   Running   sleep 300 &
+[2]-  Running   sleep 500 &
+[3]+  Running   sleep 700 &
+[n]: Numero de trabajo, es su identificador en la fila, aquí pueden aparecer simbolos, + es para el trabajo actual, - es para el anterior
+State: Es el estado en el que esta, puede estar ejecutandose y demás
+comando: Comando asociado al trabajo
+--------------------------------------------------------------------
+fg: Trae un trabajo al primer plano                   // fg %numero_de_trabajo     o sea job
+bg: Reanuda un trabajo suspendido al segundo plano    // bg %numero_de_trabajo     o sea job
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
