@@ -76,8 +76,14 @@ uptime: Muestra el tiempo que estuvo Linux encedido desde su inicio de sesion, l
 10:30:00 up         5 days, 3 hours,        2 users,       load average: 0.50, 0.70, 0.80
 hora_actual up      tiempo_encendido,       usuarios,      load average: carga1, carga5, carga15
 -------------------------------------------------------------------
-
+watch: Repite el comando en un intervalo predeterminado de 2 segundos, este intervalo se puede modificar usando -n
+watch ls
+o
+watch -n 5 ls
 -------------------------------------------------------------------
+wait: Espera a que todos los procesos en segundo plano terminen de ejecutarse, aunque tambien puede esperar especificamente algunos, se puede hacer esto usando sus PID
+sleep 30 &              o               wait 1400 1500
+wait
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 -------------------------------------------------------------------
