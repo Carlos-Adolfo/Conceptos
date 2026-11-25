@@ -85,6 +85,11 @@ wait: Espera a que todos los procesos en segundo plano terminen de ejecutarse, a
 sleep 30 &              o               wait 1400 1500
 wait
 -------------------------------------------------------------------
+vmstat:  (lo de abajo saldrá junto, no ordenado)
+procs              memory                         swap                io         system         cpu
+ r  b        swpd  free  buff cache               si so              bi bo       in cs       us sy id wa
+ 1  0         0    8000  500  2000                0  0               2  1        50 100      5  2  92 1
+
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 -------------------------------------------------------------------
