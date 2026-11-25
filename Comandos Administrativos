@@ -67,4 +67,24 @@ shared:     Memoria Ram que esta siendo usando en varios procesos
 buff/cache: Memoria usada para buff y caches
 avaible:    Estimación de la RAM que puede utilizarse para nuevos programas sin recurrir excesivamente a Swap.
 -------------------------------------------------------------------
+time: Mide cuando tiempo tardó               
+real:	Tiempo real que transcurrió desde que comenzó hasta que terminó                    //time sleep 5 -> real    0m5.003s
+user: Tiempo de CPU utilizado ejecutando instrucciones del programa en modo usuario.                       user    0m0.000s
+sys:  Tiempo de CPU utilizado realizando operaciones del sistema operativo en nombre del programa.         sys     0m0.001s
+-------------------------------------------------------------------
+uptime: Muestra el tiempo que estuvo Linux encedido desde su inicio de sesion, la cantidad de usuarios, hora cuando inicio, load average
+10:30:00 up         5 days, 3 hours,        2 users,       load average: 0.50, 0.70, 0.80
+hora_actual up      tiempo_encendido,       usuarios,      load average: carga1, carga5, carga15
+-------------------------------------------------------------------
 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
