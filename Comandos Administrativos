@@ -85,11 +85,32 @@ wait: Espera a que todos los procesos en segundo plano terminen de ejecutarse, a
 sleep 30 &              o               wait 1400 1500
 wait
 -------------------------------------------------------------------
-vmstat:  (lo de abajo saldrá junto, no ordenado)
+vmstat: Muestra información sobre procesos, memoria, intercambio de memoria, actividad del disco y CPU. (lo de abajo saldrá junto, no ordenado)
 procs              memory                         swap                io         system         cpu
  r  b        swpd  free  buff cache               si so              bi bo       in cs       us sy id wa
  1  0         0    8000  500  2000                0  0               2  1        50 100      5  2  92 1
-
+#procs: Muestra los estados de los procesos de dos formas
+-r: significa los procesos que se estan ejecutando
+-b: significa los procesos que estan bloqueados o en reposo
+#memory: 
+-swpd: Swaped. Es la cantidad de memoria swap ocupada
+-free: Cantidad de memoria libre
+-buff: Memoria utilizada como buffer
+-cache: Memoria utilizada en cache
+#swap: Muestra el movimiento de datos entre la memoria RAM y la Swap.
+-si: swap in. Cantidad de datos que Linux trae de la memoria swap hacia la RAM
+-so: swap out. Cantidad de datos que Linux trae de la memoria RAM hacia la swap
+#io: 
+-bi: 
+-bo: 
+#system: 
+-in: 
+-cs: 
+#cpu: 
+-us: 
+-sy: 
+-id: 
+-wa: 
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 -------------------------------------------------------------------
